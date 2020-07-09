@@ -1,20 +1,16 @@
-# *C&#35;*
-
-## **Common Styles and Examples**
+# *Naming Conventions - C#*
 
 Pascal Case       | Camel Case      | Snake Case         |   Lower Case    |  Caps Case 
 :----------------:|:---------------:|:------------------:|:---------------:|:----------------:
 LazyDogBrownFox   | lazyDogBrownFox | lazy_dog_brown_fox | lazydogbrownfox | LAZYDOGBROWNFOX
 
-## **Naming Conventions**
-
-### *File/Directory Names*
+### *Files and Directories*
 * Pascal Case.
 ```C#
 MotorControl.cs
 ```
 
-### *Class Names*
+### *Classes*
 * Pascal Case: Names of classes, enumerations, namespaces
 * Interface names are recommended to start with "I".
 ```C#
@@ -24,13 +20,13 @@ public enum MyEnum {}
 public interface IMyInterface {}
 ```
 
-### *Funciton/Method Names*
+### *Funcitons and Methods*
 * Pascal Case.
 ```C# 
 public int RandomFunctionGenerator();
 ```
 
-### *Variable Names*
+### *Variables*
 * Pascal Case: If field is a public field, static, or constant.
 * Camel Case: If local variable or parameter.
 * Camel case with a leading underscore: If private, protected, internal fields and properties. 

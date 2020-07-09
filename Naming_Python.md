@@ -1,27 +1,23 @@
-# *Python*
-
-## **Common Styles and Examples**
+# *Naming Conventions - Python*
 
 Pascal Case       | Camel Case      | Snake Case         |   Lower Case    |  Caps Case 
 :----------------:|:---------------:|:------------------:|:---------------:|:----------------:
 LazyDogBrownFox   | lazyDogBrownFox | lazy_dog_brown_fox | lazydogbrownfox | LAZYDOGBROWNFOX
 
-## **Naming Conventions**
-
-### *Modue/File Names*
+### *Modules and Files*
 * Lower Case or Snake Case for improved readability.
 ```python
 example.py
 random_function_generator.py
 ```
 
-### *Class Names*
+### *Classes*
 * Pascal Case: 
 ```python
 class CirclePlotter(object):
 ```
 
-### *Function/Method Names*
+### *Functions/Methods*
 * Lower Case or Snake Case for improved readability. Camel Case if that's already the prevailing style.
 ```python 
 def example():
@@ -34,7 +30,7 @@ def randomFunctionGenerator():
 def _print_helper(self, user_id)
 ```
 
-### *Variable Names*
+### *Variables*
 * Lower Case or Snake Case for improved readability.
 ```python
 status = "OK"
@@ -46,7 +42,7 @@ temp_func = random_funciton_generator()
 _user = _get_user_id()
 ```
 
-### *Argument/Parameter Names*
+### *Arguments/Parameters*
 * All Lower Case. 
 ```python
 def example(guid=None):

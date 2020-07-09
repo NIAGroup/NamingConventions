@@ -1,14 +1,10 @@
-# *Java Script*
-
-## **Common Styles and Examples**
+# *Naming Conventions - JavaScript*
 
 Pascal Case       | Camel Case      | Snake Case         |   Lower Case    |  Caps Case 
 :----------------:|:---------------:|:------------------:|:---------------:|:----------------:
 LazyDogBrownFox   | lazyDogBrownFox | lazy_dog_brown_fox | lazydogbrownfox | LAZYDOGBROWNFOX
 
-## **Naming Conventions**
-
-### *File/Directory Names*
+### *Files and Directories*
 * lower case with underscorees for readability.
 ```js
 myscript.js
@@ -39,7 +35,7 @@ const THIS_IS_PI = 3.14;
 function doSomething(arg){}
 ```
 
-### *Class Names*
+### *Classes*
 * Pascal Case: Names of classes and enumerations
 ```js
 class MyClass {}

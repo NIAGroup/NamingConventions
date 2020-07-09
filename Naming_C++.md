@@ -1,28 +1,24 @@
-# *C++*
-
-## **Common Styles and Examples**
+# *Naming Conventions - C++*
 
 Pascal Case       | Camel Case      | Snake Case         |   Lower Case    |  Caps Case 
 :----------------:|:---------------:|:------------------:|:---------------:|:----------------:
 LazyDogBrownFox   | lazyDogBrownFox | lazy_dog_brown_fox | lazydogbrownfox | LAZYDOGBROWNFOX
 
-## **Naming Conventions**
-
-### *File Names*
+### *Files*
 * Snake Case.
 ```C++
 my_useful_class.c
 my_useful_class.cpp
 ```
 
-### *Class/Type Names*
+### *Classes and Types*
 * Pascal Case: The names of all types — classes, structs, type aliases, enums, and type template parameters — have the same naming convention. No underscores. 
 ```C++
 class CirclePlotter : public PlotterClass{};
 struct MyStruct{};
 ```
 
-### *Funciton/Method Names*
+### *Funcitons/Methods*
 * Pascal Case. The same naming rule applies to class- and namespace-scope constants that are exposed as part of an API and that are intended to look like functions
 * Accessors and mutators (get and set functions) may be named like variables
 ```C++ 
@@ -30,7 +26,7 @@ int RandomFunctionGenerator();
 void set_count(int count);
 ```
 
-### *Variable Names*
+### *Variables*
 * Lower Case or Snake Case for multiple words.
 * Data members of classes (but not structs) additionally have trailing underscores
 ```C++
@@ -44,13 +40,13 @@ class TableInfo {
 };
 ```
 
-### *Namespace Names*
+### *Namespaces*
 * Lower Case or Snake Case for multiple words.
 ```C++
 example::example_scope::example_item temp_example;
 ```
 
-### Macro Names
+### *Macros*
 * All Caps Case with underscores separating words.
 ```C++
 #define PI 3.14159265358979323;
