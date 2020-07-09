@@ -218,7 +218,7 @@ Miscellaneous
 
 Contributing
 ------------
-Contributions are welcome! Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+Contributions are welcome! Please see [CONTRIBUTING](guidelines/CONTRIBUTING.md) for details.
 
 
 License

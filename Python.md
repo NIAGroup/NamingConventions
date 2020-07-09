@@ -78,7 +78,7 @@ autopep8   --in-place   yourcode.py
 ```
 
 ## **Reference**
-For more standards and links refer to [Coding Standards Lookup](Coding_Standards.md/#Python) page.
+For more standards and links refer to [Coding Standards Lookup](README.md/#Python) page.
 
 ## **Guidelines**
 To contribute refer to the [Contributing](guidelines/CONTRIBUTING.md) and [License](guidelines/LICENSE) pages.

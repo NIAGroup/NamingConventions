@@ -49,7 +49,7 @@ public interface IMyInterface {}
 ```
 
 ## **Reference**
-For more standards and links refer to [Coding Standards Lookup](Coding_Standards.md/#JavaScript) page.
+For more standards and links refer to [Coding Standards Lookup](README.md/#JavaScript) page.
 
 ## **Guidelines**
 To contribute refer to the [Contributing](guidelines/CONTRIBUTING.md) and [License](guidelines/LICENSE) pages.

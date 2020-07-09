@@ -48,7 +48,7 @@ public class MyClass {
 ```
 
 ## **Reference**
-For more standards and links refer to [Coding Standards Lookup](Coding_Standards.md/#C&#35) page.
+For more standards and links refer to [Coding Standards Lookup](README.md/#C&#35) page.
 
 ## **Guidelines**
 To contribute refer to the [Contributing](guidelines/CONTRIBUTING.md) and [License](guidelines/LICENSE) pages.

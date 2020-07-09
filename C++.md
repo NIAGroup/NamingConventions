@@ -57,7 +57,7 @@ example::example_scope::example_item temp_example;
 ```
 
 ## **Reference**
-For more standards and links refer to [Coding Standards Lookup](Coding_Standards.md/#C++) page.
+For more standards and links refer to [Coding Standards Lookup](README.md/#C++) page.
 
 ## **Guidelines**
 To contribute refer to the [Contributing](guidelines/CONTRIBUTING.md) and [License](guidelines/LICENSE) pages.
